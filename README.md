@@ -2,6 +2,8 @@
 
 Pequeño proyecto donde montamos un servidor de prueba de Express y Mongo.
 
+# Solo usando Dockerfile
+
 Una vez clonado el repositorio, debemos ejecutar:
 
 ```shell
@@ -19,4 +21,10 @@ Para bindear el directorio de trabajo y que tus cambios se reflejen en tiempo re
 ```shell
 -v tudirectorio:/usr/app
 ```
-#### Proximamente con docker-composer
+#### Usando Docker Compose
+
+Es aún más fácil, ejecuta el siguiente comando en tu directorio de trabajo:
+
+```shell
+docker-compose up
+```
